@@ -6,7 +6,7 @@ class Borg:
         self.__dict__ = self._shared_state  # Make it an attribute dictionary
 
 
-class Singleton(Borg): # Inherits from Borg class
+class Singleton(Borg):  # Inherits from Borg class
     """This class now shares all its attributes among its various instances"""
     # This essentially makes the singleton objects an object-oriented global variable#
 
